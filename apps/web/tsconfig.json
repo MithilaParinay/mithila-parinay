@@ -31,5 +31,10 @@
     "**/*.mts",
     "../../amplify/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    ".next",
+    "../../amplify/**",
+    "../../amplify_outputs/**"
+  ]
 }
